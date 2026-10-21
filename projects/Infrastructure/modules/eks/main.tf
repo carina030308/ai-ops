@@ -117,7 +117,7 @@ resource "aws_eks_node_group" "node_group" {
   ]
 }
 
-# EBS Volume and policies for EKS Node Group
+# EBS Volume and policies for EKS Node Groups
 
 data "aws_iam_policy_document" "ebs_csi_assume_role" {
   statement {
